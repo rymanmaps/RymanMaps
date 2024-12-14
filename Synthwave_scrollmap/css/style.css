@@ -1,0 +1,77 @@
+body{
+    background-color: #261447; /*Set background color */
+    font-family: 'VCR OSD MONO', sans-serif; /* Default font */
+    color: #33FF00; /*Default text color */
+}
+
+/* Font Color Options */
+.text-magenta {
+    color: #f706cf; /* Magenta */
+}
+
+.text-cyan {
+    color: #2de2e6; /* Cyan */
+}
+
+.text-green {
+    color: #33FF00; /* Green */
+}
+
+.text-amber {
+    color: #FFCC00; /* Light Amber */
+}
+
+/* Neon Glow Effect for headers */
+h1 {
+    font-family: 'Rocket Rinder', sans-serif; /* Apply Rocket Rinder font */
+    font-size: 3rem; /* Increase size for the header */
+    color: #f706cf; /* Base color for magenta */
+    letter-spacing: 4px; /* Optional: increase letter spacing */
+    text-shadow: 
+        0 0 5px #dab2d2,   /* Magenta glow */
+        0 0 10px #c506a5,  /* Magenta glow */
+        0 0 20px #8b0575,  /* Magenta glow */
+        0 0 30px #2de2e6,  /* Cyan glow */
+        0 0 40px #2de2e6,  /* Cyan glow */
+        0 0 50px #2de2e6,  /* Cyan glow */
+        0 0 75px #2de2e6;  /* Larger cyan glow for outer effect */
+    /*animation: neon-flicker 1.5s infinite alternate; /* Optional: flicker effect */
+}
+
+h2 {
+    font-family: 'Streamster', sans-serif; /* Apply Streamster font */
+    font-size: 3rem;
+    color: #f872e2;
+    text-shadow: 
+        0 0 5px #f130cb,   /* Magenta glow */
+        0 0 10px #c506a5,  /* Magenta glow */
+        0 0 20px #8b0575,  /* Magenta glow */
+        0 0 30px #2de2e6,  /* Cyan glow */
+        0 0 40px #2de2e6,  /* Cyan glow */
+        0 0 50px #2de2e6,  /* Cyan glow */
+        0 0 75px #2de2e6;  /* Larger cyan glow for outer effect */
+}
+
+h3 {
+    font-family: 'Streamster', sans-serif; /* Apply Streamster font */
+    font-size: 2rem;
+    color: #f872e2;
+    text-shadow: 
+        0 0 5px #f130cb,   /* Magenta glow */
+        0 0 10px #c506a5,  /* Magenta glow */
+        0 0 20px #8b0575,  /* Magenta glow */
+        0 0 30px #2de2e6,  /* Cyan glow */
+        0 0 40px #2de2e6,  /* Cyan glow */
+        0 0 50px #2de2e6,  /* Cyan glow */
+        0 0 75px #2de2e6;  /* Larger cyan glow for outer effect */
+}
+
+p {
+    font-family: 'VCR OSD MONO', sans-serif; /* Apply Streamster font */
+    font-size: 2rem;
+    color: #f872e2;
+}
+
+iframe{
+    height:800px;
+}
